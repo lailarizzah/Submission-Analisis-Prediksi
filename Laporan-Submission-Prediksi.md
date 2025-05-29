@@ -207,7 +207,7 @@ KNN adalah algoritma non-parametrik yang bekerja dengan mencari `k` tetangga ter
 **Parameter:**
 - `n_neighbors=5`: Menggunakan 5 tetangga terdekat untuk klasifikasi.
 
-**Proses:**
+**Cara Kerja:**
 1. Model dilatih menggunakan `X_train` dan `y_train`.
 2. Prediksi dilakukan pada `X_test`.
 3. Evaluasi menggunakan:
@@ -230,7 +230,7 @@ Random Forest adalah algoritma ensemble berbasis decision tree yang membangun ba
 - `n_estimators=100`: Jumlah tree.
 - `random_state=42`: Seed untuk hasil yang konsisten.
 
-**Proses:**
+**Cara Kerja:**
 1. Model dilatih menggunakan `X_train` dan `y_train`.
 2. Prediksi dilakukan pada `X_test`.
 3. Evaluasi menggunakan:
@@ -253,7 +253,7 @@ XGBoost adalah algoritma boosting yang efisien dan akurat, dirancang untuk perfo
 - `eval_metric='logloss'`: Metrik evaluasi yang digunakan selama pelatihan.
 - `random_state=42`: Seed untuk replikasi hasil.
 
-**Proses:**
+**Cara Kerja:**
 1. Model dilatih menggunakan `X_train` dan `y_train`.
 2. Prediksi dilakukan pada `X_test`.
 3. Evaluasi menggunakan:
